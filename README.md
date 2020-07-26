@@ -1,7 +1,7 @@
 # To run the code
 Due to using Java, I used maven to manage the dependencies.
 ~~~~
-1. Navigate to the directory /proxima-capital-coding-task and
+1. Navigate to the directory /proxima-capital-coding-task and run
 - mvn compile                                                                            
 - mvn package
 - mvn install assembly:assembly

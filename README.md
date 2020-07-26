@@ -1,8 +1,11 @@
 # To run the code
 Due to using Java, I used maven to manage the dependencies.
 ~~~~
-1. Navigate to the directory /proxima-capital-coding-task and run mvn install
-2. run java -cp target/task-solution-1.0-SNAPSHOT.jar com.solution.App
+1. Navigate to the directory /proxima-capital-coding-task and
+- mvn compile                                                                            
+- mvn package
+- mvn install assembly:assembly
+2. run java -cp ./target/task-solution-1.0-SNAPSHOT-jar-with-dependencies.jar com.solution.App
 3. Enter a number in the argument to specify the quantity of BTC
 ~~~~
 I wasn't sure of the exact method of arguments and output so the arguments is given one time as standard input and the program will output a weighted price for both buy and sell when an event is received.
